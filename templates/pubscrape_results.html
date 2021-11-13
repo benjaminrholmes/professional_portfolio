@@ -1,0 +1,124 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Pubscraper_results</title>
+
+{% endblock %}
+
+{% block content %}
+    <!-- Main -->
+        <div id="main">
+            <div class="inner">
+                    <h1>Project: <strong style="color:#e58899">PubScraper</strong></h1>
+                    <p>PubScraper allows the user to build a search string from keywords, generate the URL via PubMed then
+                    scrape all of the results to be displayed within interactive tables </p>
+                <section>
+                    <div class="row">
+                        <h1 class="display-4"> Title Review</h1>
+                    </div>
+                    <div class="row">
+                            <div>
+                                {{data_frame | safe}}
+                            </div>
+                    </div>
+                    <div class="row">
+                        <h1 class="display-4">Abstract Review</h1>
+                    </div>
+                    <div class="row" id="abstract_row">
+                            <div>
+                                {{data_frame_abs | safe}}
+                            </div>
+                    </div>
+                    <div class="row">
+                        <h1 class="display-4">Full-text Review</h1>
+                    </div>
+                    <div class="row" id="fulltext_row">
+                            <div>
+                                {{data_frame_ft | safe}}
+                            </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+
+<script type="text/javascript">
+    var pm_table_t = $('#table1').DataTable({
+        "paging": true,
+        "ordering": true,
+        "info": true,
+        columnDefs: [
+                    {
+                        targets: [0, 2, 3, 4, 5, 6],
+                        className: "dt-center",
+
+                    },
+                     {
+                        targets: [1],
+                        className: "dt-head-center"
+                    }
+                    ],
+        buttons: [
+        'selectRows',
+        'selectColumns',
+        'selectCells'
+    ]
+    });
+
+    var pm_table_abs = $('#table2').DataTable({
+        "paging": true,
+        "ordering": true,
+        "info": true,
+        columnDefs: [
+                    {
+                        targets: [0, 2, 3, 4, 5, 6],
+                        className: "dt-center"
+                    },
+                     {
+                        targets: [1],
+                        className: "dt-head-center"
+                    }
+                    ]
+    });
+    var pm_table_ft = $('#table3').DataTable({
+        "paging": true,
+        "ordering": true,
+        "info": true,
+        columnDefs: [
+                    {
+                        targets: [0, 2, 3, 4, 5, 6],
+                        className: "dt-center"
+                    },
+                     {
+                        targets: [1],
+                        className: "dt-head-center"
+                    }
+                    ]
+    });
+
+    pm_table_t.on('click', 'tbody tr' ,function() {
+        var $row = $(this);
+        var addRow = pm_table_t.row($row);
+        pm_table_abs.row.add(addRow.data()).draw();
+    });
+    pm_table_abs.on('click', 'tbody tr' ,function() {
+        var $row = $(this);
+        var addRow = pm_table_abs.row($row);
+        pm_table_ft.row.add(addRow.data()).draw();
+    });
+
+
+</script>
+
+<style type="text/css">
+    th {
+        font-size: 0.9em !important;
+    }
+    td {
+        font-size:  0.7em !important;
+        vertical-align: middle !important;
+    }
+
+  </style>
+
+{% endblock %}

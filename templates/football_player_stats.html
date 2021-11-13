@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Football Player Statistics</title>
+{% endblock %}
+
+{% block content %}
+    <!-- Main -->
+        <div id="main">
+            <div class="inner">
+                    <h1>Project: <strong style="color:#e58899">Football Player Statistics</strong></h1>
+                    <p></p>
+                    <div class="row">
+                        <div class="col-4 col-12-medium">
+                             <form action="{{ url_for("football_stats")}}" method="post" style="text-align: center !important;">
+                                    <h3>Player</h3>
+                                    <input type="text" id="player" name="player">
+                                    <button type="submit" class="button primary" style="margin-top: 0.5em">Search</button><br>
+                             </form>
+                        </div>
+                    <div class="col-4 col-12-medium">
+                            <form action="{{ url_for("football_stats")}}" method="post" style="text-align: center !important;">
+                                    <select name="position" method="GET" action="/football">
+                                        {% for position in position_list %}
+                                            <option value="{{position}}" SELECTED>{{position}}</option>"
+                                        {% endfor %}
+                                    </select>
+                            </form>
+                    </div>
+                        </div>
+            <div class="row">
+                <select name="stat" method="GET" action="/football">
+                    {% for stat in stats_list %}
+                        <option value="{{stat}}" SELECTED>{{stat}}</option>"
+                    {% endfor %}
+                </select>
+            </div>
+            </div>
+        </div>
+
+{% endblock %}

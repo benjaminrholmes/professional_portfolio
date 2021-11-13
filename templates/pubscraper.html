@@ -1,0 +1,163 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Pubscraper</title>
+{% endblock %}
+
+{% block content %}
+    <!-- Main -->
+        <div id="main">
+            <div class="inner">
+                    <h1>Project: <strong style="color:#e58899">PubScraper</strong></h1>
+                    <p>PubScraper allows the user to build a search string from keywords, generate the URL via PubMed then
+                    scrape all of the results to be displayed within interactive tables </p>
+                <section>
+                    <div class="row">
+                        <div class="col-4 col-12-medium">
+                             <form action="{{ url_for("exposure")}}" method="post" style="text-align: center !important;">
+                                    <h3>Exposure Terms</h3>
+                                    <input type="text" id="exposure" name="exposure" class="keywords">
+                                    <button type="submit" class="button primary" style="margin-top: 0.5em">ADD</button><br>
+                             </form>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <form action="{{ url_for("outcome")}}" method="post" style="text-align: center !important;">
+                                <h3>Outcome Terms</h3>
+                                <input type="text" id="outcome" name="outcome" class="keywords">
+                                <button type="submit" class="button primary" style="margin-top: 0.5em">ADD</button>
+                            </form>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <form action="{{ url_for("exclusion")}}" method="post" style="text-align: center !important;">
+                                <h3>Exclusionary Terms</h3>
+                                <input type="text" id="exclusion" name="exclusion" class="keywords">
+                                <button type="submit" class="button primary" style="margin-top: 0.5em">ADD</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 col-12-medium">
+                            <div class="table-wrapper">
+                                <table>
+                                    <thead>
+
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>{{ exposure_list[0] }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{{ exposure_list[1] }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{{ exposure_list[2] }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{{ exposure_list[3] }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{{ exposure_list[4] }}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <div class="table-wrapper">
+                                <table>
+                                    <thead>
+
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>{{ outcome_list[0] }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{{ outcome_list[1] }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{{ outcome_list[2] }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{{ outcome_list[3] }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{{ outcome_list[4] }}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                             <div class="table-wrapper">
+                                <table>
+                                    <thead>
+
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>{{ exclusion_list[0] }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{{ exclusion_list[1] }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{{ exclusion_list[2] }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{{ exclusion_list[3] }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{{ exclusion_list[4] }}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="accordion" id="search_builder_accordion">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <form action="{{ url_for("searchbuilder")}}" method="post">
+                                      <button class="accordion-button" type="submit" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Build Search String
+                                      </button>
+                                 </form>
+                                </h2>
+                                <div class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                        {{ search }}
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="accordion">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <form action="{{ url_for("searchurl")}}" method="post">
+                                      <button class="accordion-button" type="submit" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Generate URL
+                                      </button>
+                                 </form>
+                                </h2>
+                                <div class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                        <a href="{{ url }}">{{ url }}</a>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                     <div class="row">
+                        <form action="{{ url_for("pubscrape")}}" method="post">
+                            <button type="submit" class="button primary">Scrape & View</button>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+{% endblock %}

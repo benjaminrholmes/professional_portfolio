@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf227b51-2ba8-420e-9a74-92471281866f" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/professional_portfolio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubscraper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/dataTables.bootstrap5.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/noscript.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/breakpoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/browser.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/dataTables.bootstrap5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/jquery-3.5.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/base/_page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/base/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/base/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/components/_actions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/components/_box.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/components/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/components/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/components/_icon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/components/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/components/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/components/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/components/_row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/components/_section.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/components/_table.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/components/_tiles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/layout/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/layout/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/layout/_main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/layout/_menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/layout/_wrapper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/libs/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/libs/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/libs/_html-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/libs/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/libs/_vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/libs/_vendor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/noscript.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/background_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/head_shot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/logo_brain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/written_work/bsc_diss/bsc_diss_header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/written_work/bsc_diss/bsc_diss_tile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/written_work/habit_formation/habit_header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/written_work/habit_formation/habit_tile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/written_work/obesity_case_study/obesity_cs_fig1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/written_work/obesity_case_study/obesity_cs_header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/written_work/obesity_case_study/obesity_tile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/written_work/quorn_review/quorn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/written_work/quorn_review/quorn_tile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pdfs/Analysis_quorn.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pdfs/Habit_Formation.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pdfs/Obesity_case_study.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pdfs/Obesity_case_study_supp_mat_1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pdfs/QMUL_transcript.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pdfs/UOS_transcript.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pdfs/bsc_diss.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/football_player_stats.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/generic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/portfolio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pubscrape_results.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pubscraper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/written_work/ww_bsc_diss.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/written_work/ww_habit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/written_work/ww_obesity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/written_work/ww_obesity2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/written_work/ww_quorn.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1yDKyfsWqyP9aeQ1ZHcqFXvCpgZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images/written_work/bsc_diss" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Files\Work\Pycharm Projects\professional_portfolio\static\images\written_work\bsc_diss" />
+      <recent name="D:\Files\Work\Pycharm Projects\professional_portfolio\templates\written_work" />
+      <recent name="D:\Files\Work\Pycharm Projects\professional_portfolio\static\pdfs" />
+      <recent name="D:\Files\Work\Pycharm Projects\professional_portfolio\templates" />
+      <recent name="D:\Files\Work\Pycharm Projects\professional_portfolio\static\images\written_work\obesity_case_study" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Files\Work\Pycharm Projects\professional_portfolio\static\pdfs" />
+      <recent name="D:\Files\Work\Pycharm Projects\professional_portfolio\static\images\written_work\habit_formation" />
+      <recent name="D:\Files\Work\Pycharm Projects\professional_portfolio\static\images\written_work" />
+      <recent name="D:\Files\Work\Pycharm Projects\professional_portfolio\templates\written_work" />
+      <recent name="D:\Files\Work\Pycharm Projects\professional_portfolio\static\images\written_work\obesity_case_study" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="professional_portfolio" type="Python.FlaskServer">
+      <module name="professional_portfolio" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf227b51-2ba8-420e-9a74-92471281866f" name="Changes" comment="" />
+      <created>1631780975073</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631780975073</updated>
+      <workItem from="1631780996889" duration="109000" />
+      <workItem from="1631857893503" duration="23989000" />
+      <workItem from="1631891034452" duration="42000" />
+      <workItem from="1631894697101" duration="154000" />
+      <workItem from="1632072351196" duration="13000" />
+      <workItem from="1632073023796" duration="1007000" />
+      <workItem from="1632086964313" duration="1960000" />
+      <workItem from="1632151602406" duration="59000" />
+      <workItem from="1632401788280" duration="12000" />
+      <workItem from="1632517774540" duration="596000" />
+      <workItem from="1633102689047" duration="24000" />
+      <workItem from="1633375281136" duration="286000" />
+      <workItem from="1634230740282" duration="117000" />
+      <workItem from="1634560660263" duration="196000" />
+      <workItem from="1636726348428" duration="8879000" />
+      <workItem from="1636812603924" duration="1020000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/professional_portfolio$professional_portfolio.coverage" NAME="professional_portfolio Coverage Results" MODIFIED="1636813110076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
